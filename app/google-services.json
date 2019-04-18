@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "942539530777",
+    "firebase_url": "https://myphotoblog-cc810.firebaseio.com",
+    "project_id": "myphotoblog-cc810",
+    "storage_bucket": "myphotoblog-cc810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942539530777:android:28ec3dcf2ad6f996",
+        "android_client_info": {
+          "package_name": "com.example.dell.photoblog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdmZkOb9MeD0TK1wBJdNwDfjmEM_XHlzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942539530777-gfek4t7fpq8t8h8a9ujlchmginej6u55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

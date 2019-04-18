@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/main_blog_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/blog_user_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/profile_placeholder" />
+
+        <TextView
+            android:id="@+id/blog_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="94dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:orientation="horizontal">
+            <TextView
+
+                android:id="@+id/blog_date"
+                android:layout_marginTop="40dp"
+                android:hint="date"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="94dp"
+                android:layout_height="wrap_content"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/blog_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_placeholder" />
+
+            <TextView
+                android:id="@+id/blog_desc"
+                android:hint="Description"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/blog_like_btn"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/action_like_gray" />
+
+
+                <TextView
+                    android:id="@+id/blog_like_count"
+                    android:layout_marginTop="13dp"
+                    android:text="0 Likes"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/blog_comment_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="140dp"
+                    android:src="@mipmap/action_comment_icon" />
+
+
+                <TextView
+                    android:id="@+id/blog_comment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="0 Comments" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
